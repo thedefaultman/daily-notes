@@ -1,13 +1,12 @@
 # daily-notes
 
-A Claude Code skill that turns your work into a living, interlinked Obsidian knowledge graph —
-automatically.
+A skill that turns your work into a living, interlinked Obsidian knowledge graph automatically.
 
 Every Claude Code session you run gets quietly captured. Once a day you run `/daily-notes` and the
 skill builds a structured daily note: your commits and PRs grouped by feature, your GitHub Project
 board synced in, your decisions logged, and everything wikilinked into a graph of daily notes ↔
 feature pages ↔ plans ↔ memories ↔ people. Over weeks, the graph becomes a searchable map of
-everything you've built and decided — the thing you wish you had when someone asks "wait, why did we
+everything you've built and decided, the thing you wish you had when someone asks "wait, why did we
 do it that way?"
 
 It's **config-driven**: nothing about it is hardcoded to one person or project. You run
@@ -15,7 +14,7 @@ It's **config-driven**: nothing about it is hardcoded to one person or project. 
 (creating one if you don't have it), installs the capture hook, and writes your config. Everything
 after that just works.
 
-> Inspired by a personal daily-notes system, generalized and open-sourced so anyone can use it.
+> Inspired by Daniel's daily-notes system, generalized and open-sourced so anyone can use it.
 
 ---
 
