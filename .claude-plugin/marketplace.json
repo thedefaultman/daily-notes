@@ -1,0 +1,24 @@
+{
+  "name": "daily-notes-marketplace",
+  "description": "Obsidian daily-notes system for Claude Code with session auto-capture and GitHub Project sync.",
+  "owner": {
+    "name": "Daniel Zoghalchali"
+  },
+  "plugins": [
+    {
+      "name": "daily-notes",
+      "source": "./",
+      "displayName": "Daily Notes",
+      "description": "Auto-capture session work into an interlinked Obsidian vault, summarize commits/PRs into a daily log, and sync a GitHub Project board. Configurable for any user via /daily-notes setup.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Zoghalchali"
+      },
+      "homepage": "https://github.com/thedefaultman/daily-notes",
+      "repository": "https://github.com/thedefaultman/daily-notes",
+      "license": "MIT",
+      "keywords": ["obsidian", "daily-notes", "productivity", "github-projects"],
+      "category": "productivity"
+    }
+  ]
+}

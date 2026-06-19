@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "user": {
+    "name": "Your Name",
+    "timezone": "America/Los_Angeles"
+  },
+  "vault": {
+    "root": "/home/you/Obsidian/MyVault",
+    "daily_dir": "Daily",
+    "weekly_dir": "Weekly",
+    "projects_dir": "Projects",
+    "people_dir": "People",
+    "templates_dir": "Templates",
+    "reference_dir": "Reference",
+    "staging_dir": ".staging"
+  },
+  "project": {
+    "name": "MyProject",
+    "tag_root": "myproject",
+    "standup": {
+      "enabled": false,
+      "days": ["Tuesday", "Friday"]
+    },
+    "domains": [
+      {
+        "name": "Product & Features",
+        "tag": "product",
+        "keywords": ["feature", "shipped", "released", "ui", "ux", "dashboard", "component"]
+      },
+      {
+        "name": "Infrastructure & DevOps",
+        "tag": "infra",
+        "keywords": ["deploy", "infra", "ci", "cd", "terraform", "docker", "k8s", "lambda", "pipeline"]
+      },
+      {
+        "name": "Bugs & Fixes",
+        "tag": "bugs",
+        "keywords": ["bug", "fix", "regression", "hotfix", "incident", "broken"]
+      }
+    ]
+  },
+  "repos": [
+    {
+      "name": "myrepo",
+      "local_path": "/home/you/code/myrepo",
+      "github": "youruser/myrepo"
+    }
+  ],
+  "github_project": {
+    "enabled": true,
+    "owner": "youruser",
+    "owner_type": "user",
+    "number": 1,
+    "id": "PVT_xxxxxxxxxxxx",
+    "url": "https://github.com/users/youruser/projects/1",
+    "login": "youruser",
+    "status_field": {
+      "id": "PVTSSF_xxxxxxxxxxxx",
+      "name": "Status",
+      "roles": {
+        "active": [
+          { "name": "Todo", "id": "aaaaaaaa" },
+          { "name": "In Progress", "id": "bbbbbbbb" }
+        ],
+        "backlog": { "name": "Todo", "id": "aaaaaaaa" },
+        "review_target": { "name": "In review", "id": "cccccccc" },
+        "done": { "name": "Done", "id": "dddddddd" }
+      }
+    },
+    "on_complete_move": "review_target"
+  },
+  "memory": {
+    "enabled": false,
+    "dir": ""
+  },
+  "plans": {
+    "enabled": false,
+    "dirs": []
+  },
+  "reference_symlinks": []
+}

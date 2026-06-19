@@ -1,0 +1,12 @@
+{
+  "name": "daily-notes",
+  "description": "Obsidian daily-notes system for Claude Code: auto-capture session work, summarize commits/PRs into a daily log, sync a GitHub Project board, and keep an interlinked vault of feature, plan, memory, and people notes. Run /daily-notes setup once to configure it for any user.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Zoghalchali"
+  },
+  "homepage": "https://github.com/thedefaultman/daily-notes",
+  "repository": "https://github.com/thedefaultman/daily-notes",
+  "license": "MIT",
+  "keywords": ["obsidian", "daily-notes", "notes", "productivity", "github-projects", "knowledge-graph", "session-capture"]
+}
